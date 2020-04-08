@@ -10,7 +10,7 @@ The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 19
    <img src="images/virginica.jpg" width=221 height=235>
 </p>
 <p align="center">
-Iris Virginica - Image from 2
+   <font size="-1">Iris Virginica - Image from 2</font>
 </p>
 <br/>
 
