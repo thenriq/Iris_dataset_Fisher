@@ -9,9 +9,17 @@ The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 19
 <p align="center">
    <img src="images/virginica.jpg" width=221 height=235>
 </p>
-<br/>
 <p align="center">
 Iris Virginica - Image from 2
+</p>
+<br/>
+
+<p align="center">
+   <img src="images/iris_sample.png" width=451 height=95>
+</p>
+<p align="center">
+Sample data from Iris dataset - Image from 3
+</p>
 
 
 <br/><br/>
@@ -42,4 +50,5 @@ Due to the fact this data set is reasonably small, it makes it easy to be visual
 ## REFERENCES
 1. https://en.wikipedia.org/wiki/Ronald_Fisher
 2. https://www.marylandbiodiversity.com/viewSpecies.php?species=357
+3. https://towardsdatascience.com/neural-network-on-iris-data-4e99601a42c8
 
