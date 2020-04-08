@@ -5,6 +5,9 @@ Project 2020 Programing and Scripting GMIT
 
 The IRIS FLOWER DATA SET is a classic data set used in statistics methods and machine learning. It consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository 
 
+<br/>
+<img src="images/virginica.jpg" width=221 height=235>
+
 <br/><br/>
 # Why was this data collected
 
