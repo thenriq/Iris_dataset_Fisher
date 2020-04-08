@@ -28,6 +28,13 @@ Sample data from Iris dataset - Image from 3
 <br/>
 
 This information were collected by **Edgar Anderson** for his publication in 1936  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. Iris versicolor seems to be a mix between Iris virginica and iris setosa, which might indicate a case of hybridisation between these two species[8]
+<br/>
+<p align="center">
+   <img src="images/irises.png" width=601 height=268>
+</p>
+<p align="center">
+Irises - Image from 4
+</p>
 
 <br/><br/>
 
@@ -51,4 +58,5 @@ Due to the fact this data set is reasonably small, it makes it easy to be visual
 1. https://en.wikipedia.org/wiki/Ronald_Fisher
 2. https://www.marylandbiodiversity.com/viewSpecies.php?species=357
 3. https://towardsdatascience.com/neural-network-on-iris-data-4e99601a42c8
+4. https://www.pluralsight.com/guides/designing-a-machine-learning-model
 
