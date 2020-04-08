@@ -42,7 +42,15 @@ Irises - Image from 4
 
 <br/>
 
-Iris setosa and Iris versicolor data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"*  and then published by Edgar in 1935[  and  ]. The same method was certainly applied for Iris virginica before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937 
+Iris setosa and Iris versicolor data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"*  and then published by **Edgar** in *1935*. The same method was certainly applied for Iris virginica before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937 
+<br/>
+<br/>
+<p align="center">
+   <img src="images/Edgar_Anderson.jpg" width=166 height=224>
+</p>
+<p align="center">
+Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969). Figure from 5
+</p>
 
 <br/><br/>
 
@@ -59,4 +67,4 @@ Due to the fact this data set is reasonably small, it makes it easy to be visual
 2. https://www.marylandbiodiversity.com/viewSpecies.php?species=357
 3. https://towardsdatascience.com/neural-network-on-iris-data-4e99601a42c8
 4. https://www.pluralsight.com/guides/designing-a-machine-learning-model
-
+5. http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/anderson-edgar.pdf
