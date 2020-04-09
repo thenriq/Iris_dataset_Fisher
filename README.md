@@ -5,7 +5,7 @@ Project 2020 Programing and Scripting GMIT
 
 The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 1930[1]. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository
 <br/>
-This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"*
+This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"* [8 and 9]
 
 ## Who was Ronald Fisher
 
@@ -67,3 +67,5 @@ Due to the fact this data set is reasonably small, it makes it easy to be visual
 5. http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/anderson-edgar.pdf
 6. By Unknown author - https://www.adelaide.edu.au, Public Domain, https://commons.wikimedia.org/w/index.php?curid=42616717
 7. https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society
+8. https://en.wikipedia.org/wiki/Iris_flower_data_set
+9. R. A. Fisher (1936). "The use of multiple measurements in taxonomic problems". Annals of Eugenics. 7 (2): 179–188. doi:10.1111/j.1469-1809.1936.tb02137.x
