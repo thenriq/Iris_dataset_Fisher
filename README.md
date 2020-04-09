@@ -3,24 +3,21 @@ Project 2020 Programing and Scripting GMIT
 <br/><br/>
 ## What is the Iris Flower Dataset 
 
-The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 1930[1]. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository 
-
+The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 1930[1]. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository
 <br/>
-<p align="center">
-   <img src="images/virginica.jpg" width=221 height=235>
+This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"*
+
+## Who was Ronald Fisher
+
+<p align="left">
+   <img src="images/Youngfisher.JPG" width=247 height=348>
 </p>
-<p align="center">
-   <font size="-1">Iris Virginica - Image from 2</font>
+<p align="left">
+   Sir Ronald Aylmer Fisher, British statistician and geneticist (February 17, 1980 - July 29, 1962) - image from 6
 </p>
 <br/>
-
-<p align="center">
-   <img src="images/iris_sample.png" width=451 height=95>
-</p>
-<p align="center">
-Sample data from Iris dataset - Image from 3
-</p>
-
+Sir Ronald Aylmer Fisher was one of the most brilliant scientists from the 20th century, considered the greatest biologist since Charles Darwin. His lifework with genetic and statistics made him be described as "a genius who almost single-handedly created the foundations for modern statistical science" and "the single most important figure in 20th century statistics".
+He was also awarded as a **Fellow of the Royal Society (FRM)** [7] and made a **Knight Bachelor** by *Queen Elizabeth II* in 1952. In 1958, we was awarded with the **Linnean Society of London Darwin-Wallace Medal**
 
 <br/><br/>
 # Why was this data collected
@@ -68,3 +65,5 @@ Due to the fact this data set is reasonably small, it makes it easy to be visual
 3. https://towardsdatascience.com/neural-network-on-iris-data-4e99601a42c8
 4. https://www.pluralsight.com/guides/designing-a-machine-learning-model
 5. http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/anderson-edgar.pdf
+6. By Unknown author - https://www.adelaide.edu.au, Public Domain, https://commons.wikimedia.org/w/index.php?curid=42616717
+7. https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society
