@@ -16,25 +16,25 @@ From *position  51 to position100*: **IRIS VERSICOLOR**
 From *position 101 to position 150*: **IRIS VIRGINICA**
 
 # RESEARCH
-This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"* [8 and 9]
+This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"* [2 and 3]
 
 ## Who was Ronald Fisher
 
 ![Ronald Fisher](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/Youngfisher.JPG)
 
 <p align="left">
-   Sir Ronald Aylmer Fisher, British statistician and geneticist (February 17, 1980 - July 29, 1962) - image from 6
+   Sir Ronald Aylmer Fisher, British statistician and geneticist (February 17, 1980 - July 29, 1962) - image from 4
 </p>
 <br/>
 Sir Ronald Aylmer Fisher was one of the most brilliant scientists from the 20th century, considered the greatest biologist since Charles Darwin. His lifework with genetic and statistics made him be described as "a genius who almost single-handedly created the foundations for modern statistical science" and "the single most important figure in 20th century statistics".
-He was also awarded as a **Fellow of the Royal Society (FRM)** [7] and made a **Knight Bachelor** by *Queen Elizabeth II* in 1952. In 1958, we was awarded with the **Linnean Society of London Darwin-Wallace Medal**
+He was also awarded as a **Fellow of the Royal Society (FRM)** [5] and made a **Knight Bachelor** by *Queen Elizabeth II* in 1952. In 1958, we was awarded with the **Linnean Society of London Darwin-Wallace Medal**
 
 <br/><br/>
 ## Why was this data collected
 
 <br/>
 
-This information were collected by **Edgar Anderson** for his publication in 1936[15]  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. Iris versicolor seems to be a mix between Iris virginica and iris setosa, which might indicate a case of hybridisation between these two species[8]
+This information were collected by **Edgar Anderson** for his publication in 1936[6]  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. Iris versicolor seems to be a mix between Iris virginica and iris setosa, which might indicate a case of hybridisation between these two species[8]
 <br/>
 <p align="left">
    <img src="images/irises.png" width=601 height=268>
@@ -49,14 +49,14 @@ Irises
 
 <br/>
 
-*Iris setosa* and *Iris versicolor* data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"[17]*  and then published by **Edgar** in *1935*[18]. The same method was certainly applied for *Iris virginica* before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937[9] 
+*Iris setosa* and *Iris versicolor* data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"[7]*  and then published by **Edgar** in *1935*[8]. The same method was certainly applied for *Iris virginica* before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937[9] 
 <br/>
 <br/>
 <p align="left">
    <img src="images/Edgar_Anderson.jpg" width=285 height=383>
 </p>
 <p align="left">
-Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969). Image from 5
+Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969). Image from 9
 </p>
 
 <br/><br/>
@@ -367,21 +367,16 @@ We can see how the category *SPECIES* is distrubuted with all other four input v
 
 ## REFERENCES
 
-1. https://archive.ics.uci.edu/ml/datasets/Iris
-2. https://www.marylandbiodiversity.com/viewSpecies.php?species=357
-3. https://towardsdatascience.com/neural-network-on-iris-data-4e99601a42c8
-4. https://www.pluralsight.com/guides/designing-a-machine-learning-model
-5. http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/anderson-edgar.pdf
-6. By Unknown author - https://www.adelaide.edu.au, Public Domain, https://commons.wikimedia.org/w/index.php?curid=42616717
-7. https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society
-8. https://en.wikipedia.org/wiki/Iris_flower_data_set
-9. R. A. Fisher (1936). "The use of multiple measurements in taxonomic problems". Annals of Eugenics. 7 (2): 179–188. doi:10.1111/j.1469-1809.1936.tb02137.x
-10. https://en.wikipedia.org/wiki/Ronald_Fisher
-11. https://en.wikipedia.org/wiki/Ronald_Fisher
-12. http://www.numpy.org/
-13. https://seaborn.pydata.org/
-14. https://pandas.pydata.org/
-15. https://matplotlib.org/
-16. Annals of the Missouri Botanical Garden, Vol. 23, No. 3. (Sep., 1936), pp.457-469+471-483+485-501+503-509
-17. Edgar Anderson (1935). "The irises of the Gaspé Peninsula". Bulletin of the American Iris Society. 59: 2–5.
-18. Edgar Anderson (1936). "The species problem in Iris". Annals of the Missouri Botanical Garden. 23 (3): 457–509. doi:10.2307/2394164. JSTOR 2394164
+1.	https://archive.ics.uci.edu/ml/datasets/Iris
+2.	https://en.wikipedia.org/wiki/Iris_flower_data_set
+3.	R. A. Fisher (1936). "The use of multiple measurements in taxonomic problems". Annals of Eugenics. 7 (2): 179–188. doi:10.1111/j.1469-1809.1936.tb02137.x
+4.	By Unknown author - https://www.adelaide.edu.au, Public Domain, https://commons.wikimedia.org/w/index.php?curid=42616717
+5.	https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society
+6.	https://matplotlib.org/
+7.	Edgar Anderson (1935). "The irises of the Gaspé Peninsula". Bulletin of the American Iris Society. 59: 2–5.
+8.	Edgar Anderson (1936). "The species problem in Iris". Annals of the Missouri Botanical Garden. 23 (3): 457–509. doi:10.2307/2394164. JSTOR 2394164
+9.	http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/anderson-edgar.pdf
+10.	http://www.numpy.org/
+11.	https://seaborn.pydata.org/
+12.	https://pandas.pydata.org/
+
