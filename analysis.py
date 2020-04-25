@@ -1,15 +1,14 @@
 # Load libraries
 
+import pandas as pd
 import seaborn as sns
-from pandas import read_csv
-from pandas.plotting import scatter_matrix
-from matplotlib import pyplot as plt
-from matplotlib.pyplot import ylabel
+import matplotlib.pyplot as plt
+
 
 # Load Dataset
 filename = open("iris.data","r") # Opening and reading file iris.data
 names = ['Sepal-Length', 'Sepal-Width', 'Petal-Length', 'Petal-Width', 'Species'] # Added columns names to dataset
-dataset = read_csv(filename,names=names) # Creating dataset with filename and names above
+dataset = pd.read_csv(filename,names=names) # Creating dataset with filename and names above
 
 
 # Species distribution
@@ -32,28 +31,28 @@ with open("dataset.txt","a") as f: #creating file dataset.txt in append mode
 dataset.hist(column='Sepal-Length',rwidth=0.9)
 plt.title('Sepal Length')
 plt.xlabel('Length (cm)')
-plt.ylabel('Quantity')
+plt.ylabel('Count')
 plt.savefig('Sepal_Length.png')
 
 # Sepal Width
 dataset.hist(column='Sepal-Width',rwidth=0.9)
 plt.title('Sepal Width')
 plt.xlabel('Length (cm)')
-plt.ylabel('Quantity')
+plt.ylabel('Count')
 plt.savefig('Sepal_Width.png')
 
 # Petal Length
 dataset.hist(column='Petal-Length',rwidth=0.9)
 plt.title('Petal Length')
 plt.xlabel('Length (cm)')
-plt.ylabel('Quantity')
+plt.ylabel('Count')
 plt.savefig('Petal_Length.png')
 
 # Petal Width
 dataset.hist(column='Petal-Width',rwidth=0.9)
 plt.title('Petal Width')
 plt.xlabel('Length (cm)')
-plt.ylabel('Quantity')
+plt.ylabel('Count')
 plt.savefig('Petal_Width.png')
 
 plt.close("all") # closing all previous open plots. 
@@ -73,12 +72,12 @@ plt.subplot(2,2,4)
 sns.boxplot(x="Species",y="Petal-Width",data=dataset)
 
 
-# Scatterplot SEPAL (pyplot)
+# Scatterplot SEPAL (seaborn)
 plt.figure()
 sns.scatterplot(x="Sepal-Length", y="Sepal-Width", data=dataset,  hue="Species")
 plt.title("Sepal")
 
-# Scatterplot PETAL (pyplot)
+# Scatterplot PETAL (seaborn)
 plt.figure()
 sns.scatterplot(x="Petal-Length", y="Petal-Width", data=dataset,  hue="Species")
 plt.title("Petal")
@@ -105,7 +104,6 @@ sns.violinplot(x="Species",y="Petal-Width",data=dataset)
 # Using a Heatmap to show how these 4 features are correlated to each other
 # Sepal Length and Sepal Width are slightly correlated to each other
 plt.figure(figsize=(9,10))
-
 sns.heatmap(dataset.corr(),annot=True)
 
 
