@@ -1,10 +1,18 @@
 # Iris_dataset_Fisher
 Project 2020 Programing and Scripting GMIT
 <br/><br/>
+
+# INTRODUCTION
 ## What is the Iris Flower Dataset 
 
 The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 1930[1]. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository
 <br/>
+The species in the Iris flower dataset are distributed on the range below:
+From position 1 to position : IRIS SETOSA
+from position  51 to position100: IRIS VERSICOLOR
+from position 101 to position 150: IRIS VIRGINICA
+
+# RESEARCH
 This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"* [8 and 9]
 
 ## Who was Ronald Fisher
@@ -20,7 +28,7 @@ Sir Ronald Aylmer Fisher was one of the most brilliant scientists from the 20th 
 He was also awarded as a **Fellow of the Royal Society (FRM)** [7] and made a **Knight Bachelor** by *Queen Elizabeth II* in 1952. In 1958, we was awarded with the **Linnean Society of London Darwin-Wallace Medal**
 
 <br/><br/>
-# Why was this data collected
+## Why was this data collected
 
 <br/>
 
@@ -51,13 +59,37 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 
 <br/><br/>
 
-## APPLICATIONS OF IRIS DATA SET: 
-
+# DATASET ANALYSIS
+## PRE-REQUISITES and INSTRUCTIONS
+<br/>
+Requirements to successfully run the scripts on this project is to have the Python interpreter installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
+<br/>
+Also, a number of libraries must be installed and imported before running this script. The install process can be done from the Command prompt (cmd). Steps to install libraries:
+SEABORN: pip install seaborn
+PANDAS: pip install pandas
+MATPLOTLIB: pip install matplotlib
 <br/>
 
-Due to the fact this data set is reasonably small, it makes it easy to be visualized and applied for learning of new analyses.  This data set is widely used as a beginner's dataset for machine learning purposes. It is also utilized in data mining , classification and clustering examples and to test algorithms. This is one of the most common and famous examples of Unsupervised Learning 
+**SEABORN** - Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-<br/><br/>
+**PANDAS** - pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language.
+
+**MATPLOTLIB** - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+<br/>
+Steps to import libraries:
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+<br/>
+## PLOTS AND TABLES
+
+In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
+The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**, for this 3 species of Iris
+
+
+
 
 ## REFERENCES
 1. https://en.wikipedia.org/wiki/Ronald_Fisher
