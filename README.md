@@ -56,7 +56,7 @@ Irises
    <img src="images/Edgar_Anderson.jpg" width=285 height=383>
 </p>
 <p align="left">
-Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969). Figure from 5
+Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969). Image from 5
 </p>
 
 <br/><br/>
