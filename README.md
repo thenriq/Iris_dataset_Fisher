@@ -98,7 +98,9 @@ built on top of the Python programming language.
 **Steps to import libraries:**
 
 *import pandas as pd*
+
 *import seaborn as sns*
+
 *import matplotlib.pyplot as plt*
 
 <br/>
