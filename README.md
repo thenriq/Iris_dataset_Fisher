@@ -321,7 +321,43 @@ The scatter plot for PETAL can be done using the command below:
 
 ![Scatter Petal](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/scatter_petal.png)
 
+<br/>
+<br/>
 
+Another great way to see how these features are correlated to each other is using HEATMAP, also from SEABORN library, using the code below:
+
+`plt.figure(figsize=(9,10))
+sns.heatmap(dataset.corr(),annot=True)`
+
+***Diagram 4.***
+
+![Heat Map](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/Heat-map.png)
+
+We can observe how Petal Length and Petal Width features are slightly correlated with Sepal Length, but not at all with Sepal Width 
+
+<br/>
+<br/>
+
+Finally, let's now visualize this dataset using the funcion boxplot, againf from SEABORN:
+
+`plt.figure(figsize=(12,10))`
+
+`sns.boxplot(x="Species",y="Sepal-Length",data=dataset)
+plt.subplot(2,2,2)`
+
+`sns.boxplot(x="Species",y="Sepal-Width",data=dataset)
+plt.subplot(2,2,3)`
+
+`sns.boxplot(x="Species",y="Petal-Length",data=dataset)
+plt.subplot(2,2,4)`
+
+`sns.boxplot(x="Species",y="Petal-Width",data=dataset)`
+
+***Diagram 5.***
+
+![Box Plot](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/box_plot.png)
+
+We can see how the category *SPECIES* is distrubuted with all other four input variables: *Sepals* and *Petals length* and *width*. While *Iris Setosa* and *Iris Virginica* differ high and low on each feature, *Iris Versicolor* keeps it in and average between *Iris Setosa* and *Iris Virginica* 
 
 ## REFERENCES
 1. https://en.wikipedia.org/wiki/Ronald_Fisher
