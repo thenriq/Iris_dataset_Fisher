@@ -47,7 +47,7 @@ Irises - Image from 4
 
 <br/>
 
-Iris setosa and Iris versicolor data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"*  and then published by **Edgar** in *1935*. The same method was certainly applied for Iris virginica before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937 
+*Iris setosa* and *Iris versicolor* data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"*  and then published by **Edgar** in *1935*. The same method was certainly applied for *Iris virginica* before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937 
 <br/>
 <br/>
 <p align="center">
@@ -83,10 +83,85 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 <br/>
+
 ## PLOTS AND TABLES
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
 The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**, for this 3 species of Iris
+
+The amont of data can be checked with the command below:
+
+`print(dataset.groupby('Species').size())`
+
+***TABLE 1.***
+Species         |TOTAL 
+----------------|------
+Iris-setosa    |	50
+Iris-versicolor |	50
+Iris-virginica  |	50
+
+<br/>
+
+***TABLE 2.***
+
+<br/>
+
+Analysing the first 10 rows in the dataset:
+
+`print(dataset.head(10))`
+
+|Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
+-------------|-----------|------------|-----------|--------
+1|5.1|3.5|1.4|0.2|Iris-setosa
+2|4.9|3|1.4|0.2|Iris-setosa
+3|4.7|3.2|1.3|0.2|Iris-setosa
+4|4.6|3.1|1.5|0.2|Iris-setosa
+5|5|3.6|1.4|0.2|Iris-setosa
+6|5.4|3.9|1.7|0.4|Iris-setosa
+7|4.6|3.4|1.4|0.3|Iris-setosa
+8|5|3.4|1.5|0.2|Iris-setosa
+9|4.4|2.9|1.4|0.2|Iris-setosa
+10|4.9|3.1|1.5|0.1|Iris-setosa
+
+<br/>
+
+***TABLE 3.***
+
+<br/>
+
+Analysing the last 10 rows in the dataset:
+
+`print(dataset.tail(10))`
+
+Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
+------------|-----------|------------|-----------|---------
+142|6.9|3.1|5.1|2.3|Iris-virginica
+143|5.8|2.7|5.1|1.9|Iris-virginica
+144|6.8|3.2|5.9|2.3|Iris-virginica
+145|6.7|3.3|5.7|2.5|Iris-virginica
+146|6.7|3|5.2|2.3|Iris-virginica
+147|6.3|2.5|5|1.9|Iris-virginica
+148|6.5|3|5.2|2|Iris-virginica
+149|6.2|3.4|5.4|2.3|Iris-virginica
+150|5.9|3|5.1|1.8|Iris-virginica
+
+<br/>
+
+***TABLE 4***
+
+A summary of the Iris dataset can be obtained by the command below:
+
+`print(dataset.describe())`
+sepal-length|sepal-width|petal-length|petal-width
+------------|-----------|------------|---------
+count  |150|150|150|150
+mean   |5.843333|3.054|3.758667|1.198667
+std    |0.828066|0.433594|1.76442|0.763161
+min    |4.3|2|1|0.1
+25%|5.1|2.8|1.6|0.3
+50%|5.8|3|4.35|1.3
+75%|6.4|3.3|5.1|1.8
+max    |7.9|4.4|6.9|2.5
 
 
 
