@@ -64,10 +64,16 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 <br/>
 Requirements to successfully run the scripts on this project is to have the Python interpreter installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
 <br/>
-Also, a number of libraries must be installed and imported before running this script. The install process can be done from the Command prompt (cmd). Steps to install libraries:
+Also, a number of libraries must be installed and imported before running this script. The install process can be done from the Command prompt (cmd). 
+
+Steps to install libraries:
+
 SEABORN: pip install seaborn
+
 PANDAS: pip install pandas
+
 MATPLOTLIB: pip install matplotlib
+
 <br/>
 
 **SEABORN** - Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
@@ -77,7 +83,9 @@ built on top of the Python programming language.
 
 **MATPLOTLIB** - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
 <br/>
+
 Steps to import libraries:
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -104,8 +112,6 @@ Iris-virginica  |	50
 
 ***TABLE 2.***
 
-<br/>
-
 Analysing the first 10 rows in the dataset:
 
 `print(dataset.head(10))`
@@ -126,8 +132,6 @@ Analysing the first 10 rows in the dataset:
 <br/>
 
 ***TABLE 3.***
-
-<br/>
 
 Analysing the last 10 rows in the dataset:
 
