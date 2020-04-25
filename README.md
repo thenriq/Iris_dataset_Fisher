@@ -5,7 +5,7 @@ Project 2020 Programing and Scripting GMIT
 # INTRODUCTION
 ## What is the Iris Flower Dataset 
 
-The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 1930[1]. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository
+The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 1930[1]. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository[1]
 <br/>
 The species in the Iris flower dataset are distributed on the range below:
 
@@ -34,13 +34,13 @@ He was also awarded as a **Fellow of the Royal Society (FRM)** [7] and made a **
 
 <br/>
 
-This information were collected by **Edgar Anderson** for his publication in 1936  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. Iris versicolor seems to be a mix between Iris virginica and iris setosa, which might indicate a case of hybridisation between these two species[8]
+This information were collected by **Edgar Anderson** for his publication in 1936[15]  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. Iris versicolor seems to be a mix between Iris virginica and iris setosa, which might indicate a case of hybridisation between these two species[8]
 <br/>
 <p align="left">
    <img src="images/irises.png" width=601 height=268>
 </p>
 <p align="left">
-Irises - Image from 4
+Irises
 </p>
 
 <br/><br/>
@@ -49,7 +49,7 @@ Irises - Image from 4
 
 <br/>
 
-*Iris setosa* and *Iris versicolor* data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"*  and then published by **Edgar** in *1935*. The same method was certainly applied for *Iris virginica* before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937 
+*Iris setosa* and *Iris versicolor* data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"[17]*  and then published by **Edgar** in *1935*[18]. The same method was certainly applied for *Iris virginica* before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937[9] 
 <br/>
 <br/>
 <p align="left">
@@ -98,6 +98,12 @@ import matplotlib.pyplot as plt
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
 The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**, for this 3 species of Iris
+
+***Image 1.***
+
+![Iris Virginica](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/virginica.jpg)
+
+<br/>
 
 The amont of data can be checked with the command below:
 
@@ -360,7 +366,8 @@ plt.subplot(2,2,4)`
 We can see how the category *SPECIES* is distrubuted with all other four input variables: *Sepals* and *Petals length* and *width*. While *Iris Setosa* and *Iris Virginica* differ high and low on each feature, *Iris Versicolor* keeps it in and average between *Iris Setosa* and *Iris Virginica* 
 
 ## REFERENCES
-1. https://en.wikipedia.org/wiki/Ronald_Fisher
+
+1. https://archive.ics.uci.edu/ml/datasets/Iris
 2. https://www.marylandbiodiversity.com/viewSpecies.php?species=357
 3. https://towardsdatascience.com/neural-network-on-iris-data-4e99601a42c8
 4. https://www.pluralsight.com/guides/designing-a-machine-learning-model
@@ -369,9 +376,12 @@ We can see how the category *SPECIES* is distrubuted with all other four input v
 7. https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society
 8. https://en.wikipedia.org/wiki/Iris_flower_data_set
 9. R. A. Fisher (1936). "The use of multiple measurements in taxonomic problems". Annals of Eugenics. 7 (2): 179–188. doi:10.1111/j.1469-1809.1936.tb02137.x
-10. https://archive.ics.uci.edu/ml/datasets/Iris
+10. https://en.wikipedia.org/wiki/Ronald_Fisher
 11. https://en.wikipedia.org/wiki/Ronald_Fisher
 12. http://www.numpy.org/
 13. https://seaborn.pydata.org/
 14. https://pandas.pydata.org/
 15. https://matplotlib.org/
+16. Annals of the Missouri Botanical Garden, Vol. 23, No. 3. (Sep., 1936), pp.457-469+471-483+485-501+503-509
+17. Edgar Anderson (1935). "The irises of the Gaspé Peninsula". Bulletin of the American Iris Society. 59: 2–5.
+18. Edgar Anderson (1936). "The species problem in Iris". Annals of the Missouri Botanical Garden. 23 (3): 457–509. doi:10.2307/2394164. JSTOR 2394164
