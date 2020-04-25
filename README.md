@@ -51,9 +51,6 @@ This information was collected by **Edgar Anderson** for his publication in 1936
 <p align="left">
    <img src="images/irises.png" width=601 height=268>
 </p>
-<p align="left">
-Irises
-</p>
 
 <br/><br/>
 
