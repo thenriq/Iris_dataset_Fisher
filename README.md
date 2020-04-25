@@ -5,8 +5,10 @@ Project 2020 Programing and Scripting GMIT
 # INTRODUCTION
 ## What is the Iris Flower Dataset 
 
-The IRIS FLOWER DATA SET is a classic data set introduced by Ronald Fisher in 1930[1]. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: IRIS SETOSA, IRIS VERSICOLOR and IRIS VIRGINICA. This characters are SEPAL LENGTH, SEPAL WIDTH, PETAL LENGTH and PETAL WIDTH. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from UC Irvine Machine Learning Repository[1]
+The **IRIS FLOWER DATA SET** is a classic data set introduced by **Ronald Fisher** in 1930. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: *IRIS SETOSA*, *IRIS VERSICOLOR* and *IRIS VIRGINICA*. This characters are **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from *UC Irvine Machine Learning Repository*[1]
+
 <br/>
+
 The species in the Iris flower dataset are distributed on the range below:
 
 From *position 1 to position 50*: **IRIS SETOSA**
@@ -16,6 +18,7 @@ From *position  51 to position100*: **IRIS VERSICOLOR**
 From *position 101 to position 150*: **IRIS VIRGINICA**
 
 # RESEARCH
+
 This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"* [2 and 3]
 
 ## Who was Ronald Fisher
@@ -25,16 +28,19 @@ This dataset was introduced by the British statistician and biologist **Ronald F
 <p align="left">
    Sir Ronald Aylmer Fisher, British statistician and geneticist (February 17, 1980 - July 29, 1962) - image from 4
 </p>
+
 <br/>
+
 Sir Ronald Aylmer Fisher was one of the most brilliant scientists from the 20th century, considered the greatest biologist since Charles Darwin. His lifework with genetic and statistics made him be described as "a genius who almost single-handedly created the foundations for modern statistical science" and "the single most important figure in 20th century statistics".
 He was also awarded as a **Fellow of the Royal Society (FRM)** [5] and made a **Knight Bachelor** by *Queen Elizabeth II* in 1952. In 1958, we was awarded with the **Linnean Society of London Darwin-Wallace Medal**
 
 <br/><br/>
+
 ## Why was this data collected
 
 <br/>
 
-This information were collected by **Edgar Anderson** for his publication in 1936[6]  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. Iris versicolor seems to be a mix between Iris virginica and iris setosa, which might indicate a case of hybridisation between these two species[8]
+This information was collected by **Edgar Anderson** for his publication in 1936[6]  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. **Iris versicolor** seems to be a mix between *Iris virginica* and *iris setosa*, which might indicate a case of hybridisation between these two species[8]
 <br/>
 <p align="left">
    <img src="images/irises.png" width=601 height=268>
@@ -64,39 +70,43 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 # DATASET ANALYSIS
 ## PRE-REQUISITES and INSTRUCTIONS
 <br/>
-Requirements to successfully run the scripts on this project is to have the Python interpreter installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
+Requirements to successfully run the scripts on this project is to have the **Python interpreter** installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
+
 <br/>
+
 Also, a number of libraries must be installed and imported before running this script. The install process can be done from the Command prompt (cmd). 
 
 Steps to install libraries:
 
-SEABORN: pip install seaborn
+**SEABORN**: *pip install seaborn*
 
-PANDAS: pip install pandas
+**PANDAS**: *pip install pandas*
 
-MATPLOTLIB: pip install matplotlib
+**MATPLOTLIB**: *pip install matplotlib*
 
 <br/>
 
-**SEABORN** - Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+**SEABORN** - *Seaborn* is a Python data visualization library based on *matplotlib*. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-**PANDAS** - pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+**PANDAS** - *Pandas* is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
 built on top of the Python programming language.
 
-**MATPLOTLIB** - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+**MATPLOTLIB** - *Matplotlib* is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
 <br/>
 
-Steps to import libraries:
+**Steps to import libraries:**
 
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+*import pandas as pd*
+*import seaborn as sns*
+*import matplotlib.pyplot as plt*
 
 <br/>
 
 ## PLOTS AND TABLES
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
+
 The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**, for this 3 species of Iris
 
 ***Image 1.***
