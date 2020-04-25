@@ -369,3 +369,9 @@ We can see how the category *SPECIES* is distrubuted with all other four input v
 7. https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society
 8. https://en.wikipedia.org/wiki/Iris_flower_data_set
 9. R. A. Fisher (1936). "The use of multiple measurements in taxonomic problems". Annals of Eugenics. 7 (2): 179–188. doi:10.1111/j.1469-1809.1936.tb02137.x
+10. https://archive.ics.uci.edu/ml/datasets/Iris
+11. https://en.wikipedia.org/wiki/Ronald_Fisher
+12. http://www.numpy.org/
+13. https://seaborn.pydata.org/
+14. https://pandas.pydata.org/
+15. https://matplotlib.org/
