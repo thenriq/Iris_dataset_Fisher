@@ -23,6 +23,8 @@ This dataset was introduced by the British statistician and biologist **Ronald F
 
 ## Who was Ronald Fisher
 
+***Image 1.***
+
 ![Ronald Fisher](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/Youngfisher.JPG)
 
 <p align="left">
@@ -41,7 +43,11 @@ He was also awarded as a **Fellow of the Royal Society (FRM)** [5] and made a **
 <br/>
 
 This information was collected by **Edgar Anderson** for his publication in 1936[6]  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. **Iris versicolor** seems to be a mix between *Iris virginica* and *iris setosa*, which might indicate a case of hybridisation between these two species[8]
+
 <br/>
+
+***Image 2.***
+
 <p align="left">
    <img src="images/irises.png" width=601 height=268>
 </p>
@@ -56,8 +62,13 @@ Irises
 <br/>
 
 *Iris setosa* and *Iris versicolor* data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"[7]*  and then published by **Edgar** in *1935*[8]. The same method was certainly applied for *Iris virginica* before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937[9] 
+
 <br/>
+
 <br/>
+
+***Image 3.***
+
 <p align="left">
    <img src="images/Edgar_Anderson.jpg" width=285 height=383>
 </p>
@@ -111,7 +122,7 @@ In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica*
 
 The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**, for this 3 species of Iris
 
-***Image 1.***
+***Image 4.***
 
 ![Iris Virginica](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/virginica.jpg)
 
