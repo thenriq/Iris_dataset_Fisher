@@ -17,9 +17,8 @@ This dataset was introduced by the British statistician and biologist **Ronald F
 
 ## Who was Ronald Fisher
 
-<p align="left">
-   <img src="images/Youngfisher.JPG" width=247 height=348>
-</p>
+![Ronald Fisher] (https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/Youngfisher.JPG)
+
 <p align="left">
    Sir Ronald Aylmer Fisher, British statistician and geneticist (February 17, 1980 - July 29, 1962) - image from 6
 </p>
