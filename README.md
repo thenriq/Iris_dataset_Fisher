@@ -1,5 +1,15 @@
-# Iris_dataset_Fisher
-Project 2020 Programing and Scripting GMIT
+# Programing and Scripting GMIT
+
+## The Fisher's Iris Dataset
+
+<br/>
+
+Final Project for the module Programing and Script (H.Dip. in Data Analytics 2020)
+
+<br/>
+
+Author: **Thiago Henrique Leao de Lima**
+
 <br/><br/>
 
 # INTRODUCTION
