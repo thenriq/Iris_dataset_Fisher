@@ -78,7 +78,7 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 # DATASET ANALYSIS
 ## PRE-REQUISITES and INSTRUCTIONS
 <br/>
-Requirements to successfully run the scripts on this project is to have the **Python interpreter** installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
+Requirements to successfully run the scripts on this project is to have the *Python* *interpreter* installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
 
 <br/>
 
@@ -127,7 +127,7 @@ The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LE
 
 All data analyze made in this project can be found in the file *analysis.py*
 
-The Iris Dataset is also available in this repository and the file name is *iris.data*.
+The Iris Dataset is also available in [this repository](https://github.com/thenriq/Iris_dataset_Fisher) and the file name is *[iris.data](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/iris.data)*.
 
 Also, the raw data can be downloaded from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and the Iris dataset collection is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). After downloaded, the python code and the *iris.data* file must be in the same folder
 
