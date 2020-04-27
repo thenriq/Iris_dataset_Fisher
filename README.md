@@ -59,7 +59,7 @@ This information was collected by **Edgar Anderson** for his publication in 1936
 ***Image 2.***
 
 <p align="left">
-   <img src="images/irises.png" width=601 height=268>
+   <img src="images/irises.png" width=721 height=322>
 </p>
 
 <br/><br/>
@@ -141,21 +141,21 @@ The Iris Dataset is also available in [this repository](https://github.com/thenr
 
 Also, the raw data can be downloaded from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and the Iris dataset collection is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). After downloaded, the python code and the *iris.data* file must be in the same folder
 
-The code below was used to open the dataset:
+The code below was used to open the dataset: *(line 9)*
 
 `filename = open("iris.data","r")`
 
-Then, columns names were added with this code:
+Then, columns names were added with this code: *(line 10)*
 
 `names = ['Sepal-Length', 'Sepal-Width', 'Petal-Length', 'Petal-Width', 'Species']`
 
-An object named "*dataset*" was created using the code below from Pandas library in order to access and manipulate the *iris.data*'s file content:
+An object named "*dataset*" was created using the code below from Pandas library in order to access and manipulate the *iris.data*'s file content: *(line 11)*
 
 `dataset = pd.read_csv(filename,names=names)`
 
 <br/>
 
-The amont of data can be checked with the command below:
+The amont of data can be checked with the command below: *(line 15)*
 
 `print(dataset.groupby('Species').size())`
 
@@ -168,11 +168,12 @@ Iris-virginica  |	50
 
 <br/>
 
-***TABLE 2.***
 
-Analysing the first 10 rows in the dataset:
+Analysing the first 10 rows in the dataset: *(line 18)
 
 `print(dataset.head(10))`
+
+***TABLE 2.***
 
 |Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 -------------|-----------|------------|-----------|--------
@@ -189,11 +190,11 @@ Analysing the first 10 rows in the dataset:
 
 <br/>
 
-***TABLE 3.***
-
-Analysing the last 10 rows in the dataset:
+Analysing the last 10 rows in the dataset: *(line 21)
 
 `print(dataset.tail(10))`
+
+***TABLE 3.***
 
 Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 ------------|-----------|------------|-----------|---------
@@ -211,9 +212,12 @@ Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 
 ***TABLE 4***
 
-A summary of the Iris dataset can be obtained by the command below:
+A summary of the Iris dataset and its recording to the file *[dataset.txt](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/dataset.txt)* can be obtained by the command below: *(lines 25 - 26)*
 
-`print(dataset.describe())`
+`with open("dataset.txt","a") as f:`
+
+`print((dataset.describe()),file = f)`
+
 sepal-length|sepal-width|petal-length|petal-width
 ------------|-----------|------------|---------
 count  |150|150|150|150
@@ -227,7 +231,7 @@ max    |7.9|4.4|6.9|2.5
 
 <br/>
 
-In this project, Histogram was used to analyse each feature individually in order to get an overall view and exported it to a png file using the commands:
+In this project, Histogram was used to analyse each feature individually in order to get an overall view and exported it to a png file using the commands: *(lines 31 - 56)*
 
 `dataset.hist(column='Sepal-Length',rwidth=0.9)
 plt.title('Sepal Length')
@@ -281,7 +285,7 @@ plt.savefig('Petal_Width.png')`
 
 <br/>
 
-Also, a comparison of each variable on a different axis can be done with the code below:
+Also, a comparison of each variable on a different axis can be done with the code below, from Pyplot library: *(line 87)*
 
 `dataset.plot(figsize=(7, 10), subplots=True)`
 
@@ -293,7 +297,7 @@ We can observe on the chart above an increase on petal length and petal width, f
 
 <br/>
 
-We can also visualise and compare these data's attributes on a curve diagram using the function FacetGrid from SEABORN, on the code below:
+We can also visualise and compare these data's attributes on a curve diagram using the function FacetGrid from SEABORN, on the code below: *(lines 113 - 123)*
 
 `g = sns.FacetGrid(dataset,hue="Species",height=5)
 g = g.map(sns.kdeplot, 'Sepal-Length').add_legend()`
@@ -330,7 +334,7 @@ We can see again how these features differ in size and how Iris Versicolor and I
 
 <br/>
 
-The data analysis can also be done with Violin Plot, from Seaborn library, using the code below. It shows the density of length and width in species. The thinner part represents the less dense data, while the fatter part represents more dense data. Data is being visualized by comparing all input variables (petal and sepal length and width) against the output variable, which is species:
+The data analysis can also be done with Violin Plot, from Seaborn library, using the code below. It shows the density of length and width in species. The thinner part represents the less dense data, while the fatter part represents more dense data. Data is being visualized by comparing all input variables (petal and sepal length and width) against the output variable, which is species: *(lines 92 - 100)*
 
 `plt.figure(figsize=(9,7))
 plt.subplot(2,2,1)
@@ -355,7 +359,7 @@ By comparing the species using SCATTERPLOT, also from SEABORN library, we can un
 
 On the other hand,  it is very clear how IRIS SETOSA can be easily distinguished from IRIS VERSICOLAR and IRIS VIRGINICA
 
-The scatterplot for SEPAL can be done using the command below: 
+The scatterplot for SEPAL can be done using the command below: *(lines 77 - 78)*
 
 `sns.scatterplot(x="Sepal-Length", y="Sepal-Width", data=dataset,  hue="Species")`
 `plt.title("Sepal")`
@@ -366,7 +370,7 @@ The scatterplot for SEPAL can be done using the command below:
 
 ![Scatter Sepal](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/scatter_sepal.png)
 
-The scatter plot for PETAL can be done using the command below: 
+The scatter plot for PETAL can be done using the command below: *(lines 82 - 83)*
 
 `sns.scatterplot(x="Petal-Length", y="Petal-Width", data=dataset,  hue="Species")`
 `plt.title("Petal")`
@@ -380,7 +384,7 @@ The scatter plot for PETAL can be done using the command below:
 <br/>
 <br/>
 
-Another great way to see how these features are correlated to each other is using HEATMAP, also from SEABORN library, using the code below:
+Another great way to see how these features are correlated to each other is using HEATMAP, also from SEABORN library, using the code below: *(lines 106 - 107)*
 
 `plt.figure(figsize=(9,10))
 sns.heatmap(dataset.corr(),annot=True)`
@@ -394,7 +398,7 @@ We can observe how Petal Length and Petal Width features are slightly correlated
 <br/>
 <br/>
 
-Finally, let's now visualize this dataset using the funcion boxplot, againf from SEABORN:
+Finally, let's now visualize this dataset using the funcion boxplot, againf from SEABORN: *(lines 64 - 72)*
 
 `plt.figure(figsize=(12,10))`
 
