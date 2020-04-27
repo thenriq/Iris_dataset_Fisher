@@ -143,7 +143,7 @@ Also, the raw data can be downloaded from [UCI Machine Learning Repository](http
 
 The code below was used to open the dataset: *(line 9)*
 
-filename = open("iris.data","r")
+`filename = open("iris.data","r")`
 
 Then, columns names were added with this code: *(line 10)*
 
