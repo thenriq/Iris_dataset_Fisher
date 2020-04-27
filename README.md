@@ -4,7 +4,7 @@
 
 <br/>
 
-Final Project for the module Programing and Script (H.Dip. in Data Analytics 2020)
+Final Project for the module **Programing and Script** *(H.Dip. in Data Analytics 2020)*
 
 <br/>
 
@@ -88,7 +88,7 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 # DATASET ANALYSIS
 ## PRE-REQUISITES and INSTRUCTIONS
 <br/>
-Requirements to successfully run the scripts on this project is to have the *Python* *interpreter* installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
+Requirements to successfully run the scripts on this project is to have the Python interpreter installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
 
 <br/>
 
@@ -414,6 +414,16 @@ plt.subplot(2,2,4)`
 ![Box Plot](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/box_plot.png)
 
 We can see how the category *SPECIES* is distrubuted with all other four input variables: *Sepals* and *Petals length* and *width*. While *Iris Setosa* and *Iris Virginica* differ high and low on each feature, *Iris Versicolor* keeps it in and average between *Iris Setosa* and *Iris Virginica* 
+
+# Final Notes
+
+<br/>
+
+This dataset content is extremely interesting as it shows how it is possible to identify a certain object with high precision by only imputing a set of variables, and this variables having values so overlapping and close to each other that makes it impossible to guess the specie without analysing all the set of variables
+
+More over and even more interesting is the fact that, after passed almost a century since this dataset was introduced, it is still in use nowadays and has been applied to the use and creation of artificial intelligence and machine learning, something so far away and futuristic from the time this dataset creators were alive. This is where the past and the future shake hands.
+
+
 
 ## REFERENCES
 
