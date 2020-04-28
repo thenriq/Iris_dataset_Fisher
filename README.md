@@ -122,11 +122,13 @@ The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LE
 
 <br/>
 
-All data analyze made in this project can be found in the file *analysis.py*
+The script built used to analyze the *iris dataset* is present in this repository and its name is *analysis.py*
 
-The Iris Dataset is also available in [this repository](https://github.com/thenriq/Iris_dataset_Fisher) and the file name is *[iris.data](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/iris.data)*.
+The Iris Dataset file is available in [this repository](https://github.com/thenriq/Iris_dataset_Fisher) as well and its name is *[iris.data](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/iris.data)*.
 
-Also, the raw data can be downloaded from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and the Iris dataset collection is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). After downloaded, the python code and the *iris.data* file must be in the same folder
+Also, the raw data can be downloaded from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and the Iris dataset collection is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). 
+
+After downloaded, the python code and the *iris.data* file must be in the same folder
 
 <br/>
 
