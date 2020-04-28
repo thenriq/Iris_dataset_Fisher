@@ -18,8 +18,6 @@ Author: **Thiago Henrique Leao de Lima**
 
 The **IRIS FLOWER DATA SET** is a classic data set introduced by **Ronald Fisher** in 1930. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: *IRIS SETOSA*, *IRIS VERSICOLOR* and *IRIS VIRGINICA*. This characters are **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from *UC Irvine Machine Learning Repository*[1]
 
-<br/>
-
 The species in the Iris flower dataset are distributed on the range below:
 
 From *position 1 to position 50*: **IRIS SETOSA**
@@ -28,11 +26,13 @@ From *position  51 to position100*: **IRIS VERSICOLOR**
 
 From *position 101 to position 150*: **IRIS VIRGINICA**
 
-# Research
+<br/>
+
+## Research
 
 This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"* [2 and 3]
 
-## Who was Ronald Fisher
+### Who was Ronald Fisher
 
 ***Image 1.***
 
@@ -49,9 +49,7 @@ He was also awarded as a **Fellow of the Royal Society (FRM)** [5] and made a **
 
 <br/><br/>
 
-## Why was this data collected
-
-<br/>
+### Why was this data collected
 
 This information was collected by **Edgar Anderson** for his publication in 1936[6]  as it seemed to be an ideal study case about genetic variation and test hypotheses of intra  morphological variation. **Iris versicolor** seems to be a mix between *Iris virginica* and *iris setosa*, which might indicate a case of hybridisation between these two species[8]
 
@@ -65,9 +63,7 @@ This information was collected by **Edgar Anderson** for his publication in 1936
 
 <br/><br/>
 
-## Collection method
-
-<br/>
+### Collection method
 
 *Iris setosa* and *Iris versicolor* data were collected in the Gaspé Peninsula *"all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"[7]*  and then published by **Edgar** in *1935*[8]. The same method was certainly applied for *Iris virginica* before Edgar shared this data with the British statistician and biologist Ronald Aylmer Fisher in 1937[9] 
 
@@ -86,8 +82,8 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 
 <br/><br/>
 
-# Dataset Analysis
-## Pre-requisites and instructions
+## Dataset Analysis
+### Pre-requisites and instructions
 <br/>
 Requirements to successfully run the scripts on this project is to have the Python interpreter installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
 
@@ -126,7 +122,7 @@ The steps below can be done on the terminal. More details regarding on how to ru
 
 <br/>
 
-## Plots and Tables
+### Plots and Tables
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
 
@@ -146,7 +142,7 @@ Also, the raw data can be downloaded from [UCI Machine Learning Repository](http
 
 <br/>
 
-#### How to run the script analysis.py ####
+#### How to run the script analysis.py
 
 After have followed steps from *PRE-REQUISITES and INSTRUCTIONS*, the python interpreter can be issued from a command line on the terminal
 
@@ -459,15 +455,15 @@ plt.subplot(2,2,4)`
 
 We can see how the category *SPECIES* is distrubuted with all other four input variables: *Sepals* and *Petals length* and *width*. While *Iris Setosa* and *Iris Virginica* differ high and low on each feature, *Iris Versicolor* keeps it in and average between *Iris Setosa* and *Iris Virginica* 
 
-# Final Notes
-
 <br/>
+
+# Final Notes
 
 This dataset content is extremely interesting as it shows how it is possible to identify a certain object with high precision by only imputing a set of variables, and this variables having values so overlapping and close to each other that makes it impossible to guess the specie without analysing all the set of variables
 
 More over and even more interesting is the fact that, after passed almost a century since this dataset was introduced, it is still in use nowadays and has been applied to the use and creation of artificial intelligence and machine learning, something so far away and futuristic from the time this dataset creators were alive. This is where the past and the future shake hands.
 
-
+<br/>
 
 ## REFERENCES
 
