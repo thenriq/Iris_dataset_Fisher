@@ -141,6 +141,39 @@ The Iris Dataset is also available in [this repository](https://github.com/thenr
 
 Also, the raw data can be downloaded from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and the Iris dataset collection is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). After downloaded, the python code and the *iris.data* file must be in the same folder
 
+#### HOW TO RUN THE SCRIPT ANALYSIS.PY ####
+
+After have followed steps from *PRE-REQUISITES and INSTRUCTIONS*, the python interpreter can be issued from a command line on the terminal
+
+To open the command-line interpreter:
+
+•	On **Windows**, the command-line is called the *command prompt* or *MS-DOS* console. A quicker way to access it is to go to `Start menu → Run and type cmd.`
+
+•	On **GNU/Linux** , the command-line can be accessed by several applications like *xterm, Gnome Terminal* or *Konsole*.
+
+•	On **MAC OS X**, the system terminal is accessed through `Applications → Utilities → Terminal`.
+
+Both *analysis.py* script and *iris.data* file must be in the same directory. Considering that the directory is going to be `c:\users\download\scripts`, once you are at the prompt, type as below:
+
+***python analysis.py***
+
+<br/>
+
+**RESULTS FROM RUNING THE ANALYS.PY SCRIPT**
+
+This script will create *4 histograms* in the origin folder, save a *text file* named *dataset.txt* with a summary of this dataset, print out on the terminal the *data amount* contained in the dataset, the *first 10 rows* in this datset, the *last 10 rows* and, in the end, it will *plot 10 diagrams* and *line plots* on screen. All tasks performed by this script will be described in detail below.
+
+<br/>
+
+**SCRIPT IN DETAIL**
+
+All the libraries installed must be imported in order to enable it to run successfully. The commands used to import these libraries are described as below:
+
+`import pandas as pd`
+`import seaborn as sns`
+`import matplotlib.pyplot as plt`
+
+
 The code below was used to open the dataset: *(line 9)*
 
 `filename = open("iris.data","r")`
