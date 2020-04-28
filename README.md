@@ -12,7 +12,8 @@ Author: **Thiago Henrique Leao de Lima**
 
 <br/><br/>
 
-# INTRODUCTION
+# Introduction
+
 ## What is the Iris Flower Dataset 
 
 The **IRIS FLOWER DATA SET** is a classic data set introduced by **Ronald Fisher** in 1930. It is used in statistics methods and machine learning and consists of four continuous characters for three species of Iris: *IRIS SETOSA*, *IRIS VERSICOLOR* and *IRIS VIRGINICA*. This characters are **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LENGTH** and **PETAL WIDTH**. It contains 150 objects of three different classes, with 50 numeric set values in cm for each class, which one is linearly separable from the other classes, while the other classes are not linearly separable from each other. This data set is available for download from *UC Irvine Machine Learning Repository*[1]
@@ -27,7 +28,7 @@ From *position  51 to position100*: **IRIS VERSICOLOR**
 
 From *position 101 to position 150*: **IRIS VIRGINICA**
 
-# RESEARCH
+# Research
 
 This dataset was introduced by the British statistician and biologist **Ronald Fisher** in his 1936 paper *"The use of multiple mesurements in Taxonomic problems  as an example of linear discriminant analysis"* [2 and 3]
 
@@ -85,8 +86,8 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 
 <br/><br/>
 
-# DATASET ANALYSIS
-## PRE-REQUISITES and INSTRUCTIONS
+# Dataset Analysis
+## Pre-requisites and instructions
 <br/>
 Requirements to successfully run the scripts on this project is to have the Python interpreter installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
 
@@ -96,24 +97,26 @@ Also, a number of libraries must be installed and imported before running this s
 
 Steps to install libraries:
 
-**SEABORN**: *pip install seaborn*
+**Seaborn**: *pip install seaborn*
 
-**PANDAS**: *pip install pandas*
+**Pandas**: *pip install pandas*
 
-**MATPLOTLIB**: *pip install matplotlib*
+**Matplotlib**: *pip install matplotlib*
 
 <br/>
 
-**SEABORN** - *Seaborn* is a Python data visualization library based on *matplotlib*. It provides a high-level interface for drawing attractive and informative statistical graphics.
+**Seaborn** - *Seaborn* is a Python data visualization library based on *matplotlib*. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-**PANDAS** - *Pandas* is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+**Pandas** - *Pandas* is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
 built on top of the Python programming language.
 
-**MATPLOTLIB** - *Matplotlib* is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+**Matplotlib** - *Matplotlib* is a comprehensive library for creating static, animated, and interactive visualizations in Python.
 
 <br/>
 
 **Steps to import libraries:**
+
+The steps below can be done on the terminal. More details regarding on how to run a command on terminal can be found below
 
 *import pandas as pd*
 
@@ -123,7 +126,7 @@ built on top of the Python programming language.
 
 <br/>
 
-## PLOTS AND TABLES
+## Plots and Tables
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
 
@@ -141,7 +144,9 @@ The Iris Dataset is also available in [this repository](https://github.com/thenr
 
 Also, the raw data can be downloaded from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and the Iris dataset collection is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). After downloaded, the python code and the *iris.data* file must be in the same folder
 
-#### HOW TO RUN THE SCRIPT ANALYSIS.PY ####
+<br/>
+
+#### How to run the script analysis.py ####
 
 After have followed steps from *PRE-REQUISITES and INSTRUCTIONS*, the python interpreter can be issued from a command line on the terminal
 
@@ -159,18 +164,20 @@ Both *analysis.py* script and *iris.data* file must be in the same directory. Co
 
 <br/>
 
-**RESULTS FROM RUNING THE ANALYS.PY SCRIPT**
+**Results from runing the analys.py script**
 
 This script will create *4 histograms* in the origin folder, save a *text file* named *dataset.txt* with a summary of this dataset, print out on the terminal the *data amount* contained in the dataset, the *first 10 rows* in this datset, the *last 10 rows* and, in the end, it will *plot 10 diagrams* and *line plots* on screen. All tasks performed by this script will be described in detail below.
 
 <br/>
 
-**SCRIPT IN DETAIL**
+**Scipt in detail**
 
-All the libraries installed must be imported in order to enable it to run successfully. The commands used to import these libraries are described as below:
+All the libraries installed must be imported in order to enable it to run successfully. The commands used to import these libraries are described as below: *(lines 3-5)
 
 `import pandas as pd`
+
 `import seaborn as sns`
+
 `import matplotlib.pyplot as plt`
 
 
@@ -192,7 +199,7 @@ The amont of data can be checked with the command below: *(line 15)*
 
 `print(dataset.groupby('Species').size())`
 
-***TABLE 1.***
+***Table 1.***
 Species         |TOTAL 
 ----------------|------
 Iris-setosa    |	50
@@ -206,7 +213,7 @@ Analysing the first 10 rows in the dataset: *(line 18)*
 
 `print(dataset.head(10))`
 
-***TABLE 2.***
+***Table 2.***
 
 |Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 -------------|-----------|------------|-----------|--------
@@ -227,7 +234,7 @@ Analysing the last 10 rows in the dataset: *(line 21)*
 
 `print(dataset.tail(10))`
 
-***TABLE 3.***
+***Table 3.***
 
 Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 ------------|-----------|------------|-----------|---------
@@ -243,7 +250,7 @@ Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 
 <br/>
 
-***TABLE 4***
+***Table 4***
 
 A summary of the Iris dataset and its recording to the file *[dataset.txt](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/dataset.txt)* can be obtained by the command below: *(lines 25 - 26)*
 
