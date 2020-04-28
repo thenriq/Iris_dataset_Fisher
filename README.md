@@ -110,18 +110,6 @@ built on top of the Python programming language.
 
 <br/>
 
-**Steps to import libraries:**
-
-The steps below can be done on the terminal. More details regarding on how to run a command on terminal can be found below
-
-*import pandas as pd*
-
-*import seaborn as sns*
-
-*import matplotlib.pyplot as plt*
-
-<br/>
-
 ### Plots and Tables
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
@@ -144,7 +132,7 @@ Also, the raw data can be downloaded from [UCI Machine Learning Repository](http
 
 #### How to run the script analysis.py
 
-After have followed steps from *PRE-REQUISITES and INSTRUCTIONS*, the python interpreter can be issued from a command line on the terminal
+After having followed steps from *PRE-REQUISITES and INSTRUCTIONS*, the python interpreter can be issued from a command line on the terminal
 
 To open the command-line interpreter:
 
@@ -203,7 +191,6 @@ Iris-versicolor |	50
 Iris-virginica  |	50
 
 <br/>
-
 
 Analysing the first 10 rows in the dataset: *(line 18)*
 
@@ -357,7 +344,6 @@ g = g.map(sns.kdeplot, 'Petal-Width').add_legend()`
 
 ![Sepal Width](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/line_sepal-width.png)
 
-
 ***Line Chart 4.***
 
 ![Petal Length](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/line_petal-length.png)
@@ -388,7 +374,6 @@ sns.violinplot(x="Species",y="Petal-Width",data=dataset)`
 
 ![Violin Plot](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/violin_plot.png)
 
-<br/>
 <br/>
 
 By comparing the species using SCATTERPLOT, also from SEABORN library, we can understand that the feature *SEPAL* is not sufficient to distinguish Iris versicolor from Iris virginica
