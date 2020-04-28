@@ -235,9 +235,11 @@ Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 
 <br/>
 
-***Table 4***
+
 
 A summary of the Iris dataset and its recording to the file *[dataset.txt](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/dataset.txt)* can be obtained by the command below: *(lines 25 - 26)*
+
+***Table 4***
 
 `with open("dataset.txt","a") as f:`
 
@@ -253,6 +255,8 @@ min    |4.3|2|1|0.1
 50%|5.8|3|4.35|1.3
 75%|6.4|3.3|5.1|1.8
 max    |7.9|4.4|6.9|2.5
+
+From *Table 4* above, it is possible to  assume that the items in this dataset shows that the average size for the feature *petal* is smaller than the average size for the feature *sepal*, which means that the *petal* is smaller than the *sepal*
 
 <br/>
 
