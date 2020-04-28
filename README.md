@@ -239,11 +239,13 @@ Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 
 A summary of the Iris dataset and its recording to the file *[dataset.txt](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/dataset.txt)* can be obtained by the command below: *(lines 25 - 26)*
 
-***Table 4***
+
 
 `with open("dataset.txt","a") as f:`
 
 `print((dataset.describe()),file = f)`
+
+***Table 4***
 
 sepal-length|sepal-width|petal-length|petal-width
 ------------|-----------|------------|---------
