@@ -15,6 +15,20 @@ Author: **Thiago Henrique Leao de Lima**
 # Table of Contents
 - [Introduction](#introduction)
   - [What is the Iris Flower Dataset](#what-is-the-iris-flower-dataset)
+  - [Research](#research)
+    - [Who was Ronald Fisher](#who-was-ronald-fisher)
+    - [Why was this data collected](#why-was-this-data-collected)
+    - [Collection Method](#collection-method)
+- [Dataset Analysis](#dataset-analysis)
+  - [Pre-requisites and instructions](#pre-requisites-and-instructions)
+  - [Initial steps](#initial-steps)
+  - [How to run the script](#how-to-run-the-script-analysispy)
+    - [Script results and outputs](#script-results-and-outputs)
+    - [Analysing the results](#analysing-the-results)
+- [Final Notes](#final-notes)
+- [References](#references)
+  
+    
 
    
 <br/>
