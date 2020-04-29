@@ -122,7 +122,7 @@ The objects to be analyzed will be **SEPAL LENGTH**, **SEPAL WIDTH**, **PETAL LE
 
 <br/>
 
-The script built used to analyze the *iris dataset* is present in this repository and its name is *analysis.py*
+The script built to analyze the *iris dataset* is present in this repository and its name is *analysis.py*
 
 The Iris Dataset file is available in [this repository](https://github.com/thenriq/Iris_dataset_Fisher) as well and its name is *[iris.data](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/iris.data)*.
 
