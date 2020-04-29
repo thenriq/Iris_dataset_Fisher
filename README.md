@@ -21,7 +21,7 @@ Author: **Thiago Henrique Leao de Lima**
     - [Collection Method](#collection-method)
 - [Dataset Analysis](#dataset-analysis)
   - [Pre-requisites and instructions](#pre-requisites-and-instructions)
-  - [Initial steps](#initial-steps)
+  - [About this Project](#about-this-project)
   - [How to run the script](#how-to-run-the-script-analysispy)
     - [Script results and outputs](#script-results-and-outputs)
     - [Analysing the results](#analysing-the-results)
@@ -132,7 +132,7 @@ built on top of the Python programming language.
 
 <br/>
 
-## Initial Steps
+## About this Project
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
 
