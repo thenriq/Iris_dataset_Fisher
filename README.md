@@ -89,7 +89,7 @@ Requirements to successfully run the scripts on this project is to have the Pyth
 
 <br/>
 
-Also, a number of libraries must be installed and imported before running this script. The install process can be done from the Command prompt (cmd). 
+Also, a number of libraries must be installed and imported before running this script. The libraries install process can be done from the Command prompt (cmd). 
 
 Steps to install libraries:
 
@@ -128,23 +128,23 @@ The Iris Dataset file is available in [this repository](https://github.com/thenr
 
 Also, the raw data can be downloaded from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and the Iris dataset collection is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). 
 
-After downloaded, the python code and the *iris.data* file must be in the same folder
+After downloaded, both *iris.data* file and *analysis.py* file must be in the same folder
 
 <br/>
 
-#### How to run the script analysis.py
+#### How to run the script *analysis.py*
 
-After having followed steps from *PRE-REQUISITES and INSTRUCTIONS*, the python interpreter can be issued from a command line on the terminal
+After having followed steps from [*PRE-REQUISITES and INSTRUCTIONS*](#pre-requisites-and-instructions), the python interpreter can be issued from a command line on the terminal
 
 To open the command-line interpreter:
 
-•	On **Windows**, the command-line is called the *command prompt* or *MS-DOS* console. A quicker way to access it is to go to `Start menu → Run and type cmd.`
+•	On **Windows**, the command-line is called the *command prompt* or *MS-DOS* console. A quicker way to access it is to go to `Start menu → Run` and type `cmd.`
 
 •	On **GNU/Linux** , the command-line can be accessed by several applications like *xterm, Gnome Terminal* or *Konsole*.
 
 •	On **MAC OS X**, the system terminal is accessed through `Applications → Utilities → Terminal`.
 
-Both *analysis.py* script and *iris.data* file must be in the same directory. Considering that the directory is going to be `c:\users\download\scripts`, once you are at the prompt, type as below:
+Again, both *analysis.py* script and *iris.data* file must be in the same directory. Considering that the directory is going to be `c:\users\download\scripts`, once you are at the prompt, type as below:
 
 ***python analysis.py***
 
@@ -158,7 +158,7 @@ This script will create *4 histograms* in the origin folder, save a *text file* 
 
 **Script in detail**
 
-All the libraries installed must be imported in order to enable it to run successfully. The commands used to import these libraries are described as below: *(lines 3-5)
+All the libraries installed must be imported in order to enable it to run successfully. The commands used to import these libraries are described as below: *(lines 3-5)*
 
 `import pandas as pd`
 
@@ -202,16 +202,16 @@ Analysing the first 10 rows in the dataset: *(line 18)*
 
 Count|Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 -----|--------|-----------|------------|-----------|--------
-1|5.1|3.5|1.4|0.2|Iris-setosa
-2|4.9|3|1.4|0.2|Iris-setosa
-3|4.7|3.2|1.3|0.2|Iris-setosa
-4|4.6|3.1|1.5|0.2|Iris-setosa
-5|5|3.6|1.4|0.2|Iris-setosa
-6|5.4|3.9|1.7|0.4|Iris-setosa
-7|4.6|3.4|1.4|0.3|Iris-setosa
-8|5|3.4|1.5|0.2|Iris-setosa
-9|4.4|2.9|1.4|0.2|Iris-setosa
-10|4.9|3.1|1.5|0.1|Iris-setosa
+0|5.1|3.5|1.4|0.2|Iris-setosa
+1|4.9|3|1.4|0.2|Iris-setosa
+2|4.7|3.2|1.3|0.2|Iris-setosa
+3|4.6|3.1|1.5|0.2|Iris-setosa
+4|5|3.6|1.4|0.2|Iris-setosa
+5|5.4|3.9|1.7|0.4|Iris-setosa
+6|4.6|3.4|1.4|0.3|Iris-setosa
+7|5|3.4|1.5|0.2|Iris-setosa
+8|4.4|2.9|1.4|0.2|Iris-setosa
+9|4.9|3.1|1.5|0.1|Iris-setosa
 
 <br/>
 
@@ -223,15 +223,16 @@ Analysing the last 10 rows in the dataset: *(line 21)*
 
 Count|Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
 ---|---------|-----------|------------|-----------|---------
-142|6.9|3.1|5.1|2.3|Iris-virginica
-143|5.8|2.7|5.1|1.9|Iris-virginica
-144|6.8|3.2|5.9|2.3|Iris-virginica
-145|6.7|3.3|5.7|2.5|Iris-virginica
-146|6.7|3|5.2|2.3|Iris-virginica
-147|6.3|2.5|5|1.9|Iris-virginica
-148|6.5|3|5.2|2|Iris-virginica
-149|6.2|3.4|5.4|2.3|Iris-virginica
-150|5.9|3|5.1|1.8|Iris-virginica
+140|6.7|3.1|5.6|2.4|Iris-virginica
+141|6.9|3.1|5.1|2.3|Iris-virginica
+142|5.8|2.7|5.1|1.9|Iris-virginica
+143|6.8|3.2|5.9|2.3|Iris-virginica
+144|6.7|3.3|5.7|2.5|Iris-virginica
+145|6.7|3|5.2|2.3|Iris-virginica
+146|6.3|2.5|5|1.9|Iris-virginica
+147|6.5|3|5.2|2|Iris-virginica
+148|6.2|3.4|5.4|2.3|Iris-virginica
+149|5.9|3|5.1|1.8|Iris-virginica
 
 <br/>
 
@@ -258,11 +259,11 @@ min    |4.3|2|1|0.1
 75%|6.4|3.3|5.1|1.8
 max    |7.9|4.4|6.9|2.5
 
-From *Table 4* above, it is possible to  assume that the items in this dataset shows that the average size for the feature *petal* is smaller than the average size for the feature *sepal*, which means that the *petal* is smaller than the *sepal*
+From *Table 4* above, it is possible to  assume that the items in this dataset shows that the average size for the feature *petal* is smaller than the average size for the feature *sepal*. This can also be observed from the row *75%*. In other words, 75% of items from this dataset represents this difference between *sepal* and *petal*
 
 <br/>
 
-In this project, Histogram was used to analyse each feature individually in order to get an overall view and exported it to a png file using the commands: *(lines 31 - 56)*
+In this project, Histogram was used to analyse each feature individually in order to get an overall view and exported it to a png file using the commands below, from *Pyplot* library: *(lines 31 - 56)*
 
 `dataset.hist(column='Sepal-Length',rwidth=0.9)
 plt.title('Sepal Length')
@@ -316,7 +317,7 @@ plt.savefig('Petal_Width.png')`
 
 <br/>
 
-Also, a comparison of each variable on a different axis can be done with the code below, from Pyplot library: *(line 87)*
+Also, a comparison of each variable on a different axis can be done with the code below, also from *Pyplot* library: *(line 87)*
 
 `dataset.plot(figsize=(7, 10), subplots=True)`
 
@@ -328,7 +329,7 @@ We can observe on the chart above an increase on petal length and petal width, f
 
 <br/>
 
-We can also visualise and compare these data's attributes on a curve diagram using the function FacetGrid from SEABORN, on the code below: *(lines 113 - 123)*
+We can also visualise and compare these data's attributes on a curve diagram using the function *FacetGrid* from *Seaborn*, on the code below: *(lines 113 - 123)*
 
 `g = sns.FacetGrid(dataset,hue="Species",height=5)
 g = g.map(sns.kdeplot, 'Sepal-Length').add_legend()`
@@ -364,7 +365,7 @@ We can see again how these features differ in size and how Iris Versicolor and I
 
 <br/>
 
-The data analysis can also be done with Violin Plot, from Seaborn library, using the code below. It shows the density of length and width in species. The thinner part represents the less dense data, while the fatter part represents more dense data. Data is being visualized by comparing all input variables (petal and sepal length and width) against the output variable, which is species: *(lines 92 - 100)*
+The data analysis can also be done with violin plot, from *Seaborn* library, using the code below. It shows the density of length and width in species. The thinner part represents the less dense data, while the fatter part represents more dense data. Data is being visualized by comparing all input variables (*petal* and *sepal* length and width) against the output variable, which is *species*: *(lines 92 - 100)*
 
 `plt.figure(figsize=(9,7))
 plt.subplot(2,2,1)
@@ -384,11 +385,11 @@ sns.violinplot(x="Species",y="Petal-Width",data=dataset)`
 
 <br/>
 
-By comparing the species using SCATTERPLOT, also from SEABORN library, we can understand that the feature *SEPAL* is not sufficient to distinguish Iris versicolor from Iris virginica
+By comparing the species using scatter plot, also from *Seaborn* library, we can understand that the feature *sepal* is not sufficient to distinguish *Iris versicolor* from *Iris virginica*
 
-On the other hand,  it is very clear how IRIS SETOSA can be easily distinguished from IRIS VERSICOLAR and IRIS VIRGINICA
+On the other hand,  it is very clear how *Iris setosa* can be easily distinguished from *Iris versicolor* and *Iris virginica*
 
-The scatterplot for SEPAL can be done using the command below: *(lines 77 - 78)*
+The scatterplot for *sepal* can be done using the command below: *(lines 77 - 78)*
 
 `sns.scatterplot(x="Sepal-Length", y="Sepal-Width", data=dataset,  hue="Species")`
 `plt.title("Sepal")`
@@ -399,7 +400,7 @@ The scatterplot for SEPAL can be done using the command below: *(lines 77 - 78)*
 
 ![Scatter Sepal](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/scatter_sepal.png)
 
-The scatter plot for PETAL can be done using the command below: *(lines 82 - 83)*
+The scatter plot for *petal* can be done using the command below: *(lines 82 - 83)*
 
 `sns.scatterplot(x="Petal-Length", y="Petal-Width", data=dataset,  hue="Species")`
 `plt.title("Petal")`
@@ -413,7 +414,7 @@ The scatter plot for PETAL can be done using the command below: *(lines 82 - 83)
 <br/>
 <br/>
 
-Another great way to see how these features are correlated to each other is using HEATMAP, also from SEABORN library, using the code below: *(lines 106 - 107)*
+Another great way to visualize how these features are correlated to each other is using *heatmap*, also from *Seaborn* library, using the code below: *(lines 106 - 107)*
 
 `plt.figure(figsize=(9,10))
 sns.heatmap(dataset.corr(),annot=True)`
@@ -422,12 +423,12 @@ sns.heatmap(dataset.corr(),annot=True)`
 
 ![Heat Map](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/Heat-map.png)
 
-We can observe how Petal Length and Petal Width features are slightly correlated with Sepal Length, but not at all with Sepal Width 
+We can observe how *Petal Length* and *Petal Width* features are slightly correlated with *Sepal Length*, but not at all with *Sepal Width* 
 
 <br/>
 <br/>
 
-Finally, let's now visualize this dataset using the funcion boxplot, againf from SEABORN: *(lines 64 - 72)*
+Finally, let's visualize this dataset using the funcion boxplot, againf from *Seaborn: *(lines 64 - 72)*
 
 `plt.figure(figsize=(12,10))`
 
@@ -446,7 +447,7 @@ plt.subplot(2,2,4)`
 
 ![Box Plot](https://github.com/thenriq/Iris_dataset_Fisher/blob/master/images/plots/box_plot.png)
 
-We can see how the category *SPECIES* is distrubuted with all other four input variables: *Sepals* and *Petals length* and *width*. While *Iris Setosa* and *Iris Virginica* differ high and low on each feature, *Iris Versicolor* keeps it in and average between *Iris Setosa* and *Iris Virginica* 
+We can see how the category *species* is distrubuted with all other four input variables: *Sepals* and *Petals* length and width. While *Iris Setosa* and *Iris Virginica* differ high and low on each feature, *Iris Versicolor* keeps it in and average between *Iris Setosa* and *Iris Virginica* 
 
 <br/>
 
@@ -454,7 +455,9 @@ We can see how the category *SPECIES* is distrubuted with all other four input v
 
 This dataset content is extremely interesting as it shows how it is possible to identify a certain object with high precision by only imputing a set of variables, and this variables having values so overlapping and close to each other that makes it impossible to guess the specie without analysing all the set of variables
 
-More over and even more interesting is the fact that, after passed almost a century since this dataset was introduced, it is still in use nowadays and has been applied to the use and creation of artificial intelligence and machine learning, something so far away and futuristic from the time this dataset creators were alive. This is where the past and the future shake hands.
+More over and even more interesting is the fact that, after passed almost a century since this dataset was introduced, it is still in use nowadays and has been applied to the use and creation of artificial intelligence and machine learning, something so far away and futuristic from the time this dataset creators were alive. 
+
+Iris dataset: small, but not trivial. Simple, but challenging. Real data.
 
 <br/>
 
