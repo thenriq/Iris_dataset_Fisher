@@ -21,8 +21,8 @@ Author: **Thiago Henrique Leao de Lima**
          * [Why was this data collected](#why-was-this-data-collected)
          * [Collection Method](#collection-method)
  * [Dataset Analysis](#dataset-analysis)
-   * [Pre-requisites and instructions](#pre-requisites-and instructions)
-   * [Initial steps](#Initial-steps)
+   * [Pre-requisites and instructions](#pre-requisites-and-instructions)
+   * [Initial steps](#initial-steps)
    * [How to run the script](#how-to-run-the-script)
          * [Script results and outputs](#script-results-and-outputs)
          * [Analysing the results](#analysing-the-results)
@@ -102,8 +102,8 @@ Edgar Shannon Anderson, american botanist  (November 9, 1897 – June 18, 1969).
 
 <br/><br/>
 
-## Dataset Analysis
-### Pre-requisites and instructions
+# Dataset Analysis
+## Pre-requisites and instructions
 <br/>
 Requirements to successfully run the scripts on this project is to have the Python interpreter installed on a computer. Steps on how to download and install Python can be obtained from the link https://www.python.org/downloads
 
@@ -130,7 +130,7 @@ built on top of the Python programming language.
 
 <br/>
 
-### Plots and Tables
+## Initial Steps
 
 In this Project we will analyze 3 species of Iris: *Iris Setosa, Iris Virginica* and *Iris Versicolor*.
 
@@ -152,7 +152,7 @@ After downloaded, both *iris.data* file and *analysis.py* file must be in the sa
 
 <br/>
 
-#### How to run the script *analysis.py*
+## How to run the script *analysis.py*
 
 After having followed steps from [*PRE-REQUISITES and INSTRUCTIONS*](#pre-requisites-and-instructions), the python interpreter can be issued from a command line on the terminal
 
@@ -170,13 +170,13 @@ Again, both *analysis.py* script and *iris.data* file must be in the same direct
 
 <br/>
 
-**Results from runing the analys.py script**
+### Script results and outputs
 
 This script will create *4 histograms* in the origin folder, save a *text file* named *dataset.txt* with a summary of this dataset, print out on the terminal the *data amount* contained in the dataset, the *first 10 rows* in this datset, the *last 10 rows* and, in the end, it will *plot 10 diagrams* and *line plots* on screen. All tasks performed by this script will be described in detail below.
 
 <br/>
 
-**Script in detail**
+### Analysing the results
 
 All the libraries installed must be imported in order to enable it to run successfully. The commands used to import these libraries are described as below: *(lines 3-5)*
 
@@ -481,7 +481,7 @@ Iris dataset: small, but not trivial. Simple, but challenging. Real data.
 
 <br/>
 
-## REFERENCES
+# REFERENCES
 
 1.	https://archive.ics.uci.edu/ml/datasets/Iris
 2.	https://en.wikipedia.org/wiki/Iris_flower_data_set
