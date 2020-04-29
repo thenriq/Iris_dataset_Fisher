@@ -156,7 +156,7 @@ This script will create *4 histograms* in the origin folder, save a *text file* 
 
 <br/>
 
-**Scipt in detail**
+**Script in detail**
 
 All the libraries installed must be imported in order to enable it to run successfully. The commands used to import these libraries are described as below: *(lines 3-5)
 
@@ -200,8 +200,8 @@ Analysing the first 10 rows in the dataset: *(line 18)*
 
 ***Table 2.***
 
-|Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
--------------|-----------|------------|-----------|--------
+Count|Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
+-----|--------|-----------|------------|-----------|--------
 1|5.1|3.5|1.4|0.2|Iris-setosa
 2|4.9|3|1.4|0.2|Iris-setosa
 3|4.7|3.2|1.3|0.2|Iris-setosa
@@ -221,8 +221,8 @@ Analysing the last 10 rows in the dataset: *(line 21)*
 
 ***Table 3.***
 
-Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
-------------|-----------|------------|-----------|---------
+Count|Sepal-Length|Sepal-Width|Petal-Length|Petal-Width|Species
+---|---------|-----------|------------|-----------|---------
 142|6.9|3.1|5.1|2.3|Iris-virginica
 143|5.8|2.7|5.1|1.9|Iris-virginica
 144|6.8|3.2|5.9|2.3|Iris-virginica
@@ -247,8 +247,8 @@ A summary of the Iris dataset and its recording to the file *[dataset.txt](https
 
 ***Table 4***
 
-sepal-length|sepal-width|petal-length|petal-width
-------------|-----------|------------|---------
+Item|Sepal-length|Sepal-width|Petal-length|Petal-width
+----|--------|-----------|------------|---------
 count  |150|150|150|150
 mean   |5.843333|3.054|3.758667|1.198667
 std    |0.828066|0.433594|1.76442|0.763161
